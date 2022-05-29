@@ -35,14 +35,6 @@ void main() {
 }
 ```
 
-You can also get continuous callbacks when your position is changing:
-
-```dart
-location.onLocationChanged.listen((LocationData currentLocation) {
-  // Use current location
-});
-```
-
 ## Feedback
 
 Please feel free to [give me any feedback](https://github.com/Yczar/custom-error-page/issues)
