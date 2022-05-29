@@ -1,6 +1,6 @@
 name: custom_error_page
 description: A flutter plugin for custom error screens.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Yczar/custom-error-page.git
 
 environment:
