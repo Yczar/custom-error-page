@@ -1,6 +1,6 @@
 # Flutter Location Plugin
 
-[![pub package](https://img.shields.io/pub/v/location.svg)](https://pub.dev/packages/custom_error_page)
+[![Pub Version](https://img.shields.io/pub/v/custom_error_page)](https://pub.dev/packages/custom_error_page)
 
 This plugin for [Flutter](https://flutter.io)
 handles getting a location on Android and iOS. It also provides callbacks when the location is changed.
