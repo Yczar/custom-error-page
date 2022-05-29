@@ -3,7 +3,7 @@
 [![Pub Version](https://img.shields.io/pub/v/custom_error_page)](https://pub.dev/packages/custom_error_page)
 
 This plugin for [Flutter](https://flutter.io)
-handles getting a location on Android and iOS. It also provides callbacks when the location is changed.
+helps replace the red error screen with shown by default when an exception is thrown in a flutter application with a much friendly error screen.
 
 ## Screen Record
 
