@@ -9,3 +9,7 @@
 ## 0.0.3
 
 - Updated Read Me.
+
+## 0.0.4
+
+- Added scroll option and reformat.
