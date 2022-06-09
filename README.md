@@ -15,7 +15,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  custom_error_page: ^0.0.3
+  custom_error_page: ^0.0.4
 ```
 
 ## Usage
