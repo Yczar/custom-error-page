@@ -49,17 +49,19 @@ class ErrorScreen extends StatelessWidget {
               ),
               const YAxisMargin(20),
               Expanded(
-                child: Column(
-                  children: [
-                    Text(
-                      errorMessage,
-                      style: theme.textTheme.subtitle1?.copyWith(
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black54,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Text(
+                        errorMessage,
+                        style: theme.textTheme.subtitle1?.copyWith(
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black54,
+                        ),
+                        textAlign: TextAlign.center,
                       ),
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ],
