@@ -8,7 +8,7 @@ class CustomErrorPage {
     ErrorWidget.builder = ((details) => MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
-            textTheme: GoogleFonts.comicNeueTextTheme(),
+            textTheme: GoogleFonts.openSansTextTheme(),
           ),
           home: ErrorScreen(
             details.exceptionAsString(),
