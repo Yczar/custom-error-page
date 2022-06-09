@@ -40,22 +40,22 @@ class ErrorScreen extends StatelessWidget {
                 ),
               ),
               const YAxisMargin(40),
+              Text(
+                _errorTitles[_random.nextInt(_errorTitles.length)],
+                style: theme.textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w800,
+                  color: Colors.black,
+                ),
+              ),
+              const YAxisMargin(20),
               Expanded(
                 child: Column(
                   children: [
                     Text(
-                      _errorTitles[_random.nextInt(_errorTitles.length)],
-                      style: theme.textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.w800,
-                        color: Colors.black,
-                      ),
-                    ),
-                    const YAxisMargin(20),
-                    Text(
                       errorMessage,
                       style: theme.textTheme.subtitle1?.copyWith(
-                        fontWeight: FontWeight.w600,
-                        color: Colors.black,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black54,
                       ),
                       textAlign: TextAlign.center,
                     ),
