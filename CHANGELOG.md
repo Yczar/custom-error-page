@@ -17,3 +17,7 @@
 ## 0.0.5
 
 - Fixed bug and updated font.
+
+## 0.0.6
+
+- Fixed bug with overflow.
