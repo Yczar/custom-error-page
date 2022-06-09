@@ -13,3 +13,7 @@
 ## 0.0.4
 
 - Added scroll option and reformat.
+
+## 0.0.5
+
+- Fixed bug and updated font.
